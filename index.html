@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Respansive Dropdown Menu</title>
+</head>
+<body>
+    <!-- <header>
+        <a href="#" class="logo">My Logo</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Dropdown <i class='bx bxs-down-arrow'></i></a>
+                
+                    <ul class="sub-menu">
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li><a href="#">Product 3 <span>+</span></a>
+                            <ul>
+                                <li><a href="#">post 1</a></li>
+                                <li><a href="#">post 2</a></li>
+                                <li><a href="#">post 3</a></li>
+                            </ul>
+        </li>
+                    </ul>
+                
+                
+                
+                </li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">Shoping <i class='bx bxs-down-arrow'></i></a>
+                
+                    <ul>
+                        <li><a href="#">post 1</a></li>
+                        <li><a href="#">post 2</a></li>
+                        <li><a href="#">post 3</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="#">Contact </a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+
+
+<!-- ////////////////////// HEADER //////////////////// -->
+
+
+     <header class="header">
+        <nav class="nav container">
+            <div class="nav--data">
+                <a href="#" class="nav--logo">My Logo</a>
+                <div class="nav--toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav--burger"></i>
+                    <i class="ri-close-line nav--close"></i>
+                </div>
+            </div>
+
+            <!-- ///////////////////// NAV BAR //////////// -->
+            <div class="nav--menu" id="nav-menu">
+                <ul class="nav--list">
+                    <li><a href="#" class="nav--link">Home</a></li>
+                    <li><a href="#" class="nav--link">About</a></li>
+
+                    <!-- //////////// Dropdown 1 //////// -->
+
+                    <li class="dropdown--item">
+                        <div class="nav--link">
+                            Company <i class="ri-arrow-down-s-line dropdown--arrow"></i>
+                        </div>
+                        <ul class="dropdown--menu">
+                            <li>
+                                <a href="#" class="dropdown--link">
+                                   <i class="ri-pie-chart-line"></i> Overview
+                                </a>                          
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown--link">
+                                   <i class="ri-arrow-up-down-line"></i> Transactions
+                                </a>
+                             </li>
+                             <!-- ////////////////// dropdown subitem /////////// -->
+
+                             <li class="dropdown--subitem">
+                                <div class="dropdown--link">
+                                    <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown--add"></i>
+                                </div>
+
+                                <ul class="dropdown--submenu">
+                                    <li>
+                                       <a href="#" class="dropdown--sublink">
+                                          <i class="ri-file-list-line"></i> Documents
+                                       </a>
+                                    </li>
+            
+                                    <li>
+                                       <a href="#" class="dropdown--sublink">
+                                          <i class="ri-cash-line"></i> Payments
+                                       </a>
+                                    </li>
+            
+                                    <li>
+                                       <a href="#" class="dropdown--sublink">
+                                          <i class="ri-refund-2-line"></i> Refunds
+                                       </a>
+                                    </li>
+                                 </ul>
+
+                             </li>
+
+                        </ul>
+
+                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <li><a href="#" class="nav--link">Blog</a></li>
+
+
+
+
+                    <li class="dropdown--item">
+                        <div class="nav--link">
+                            User <i class="ri-arrow-down-s-line dropdown--arrow"></i>
+                        </div>
+                        <ul class="dropdown--menu">
+                            <li>
+                               <a href="#" class="dropdown--link">
+                                  <i class="ri-user-line"></i> Profiles
+                               </a>                          
+                            </li>
+    
+                            <li>
+                               <a href="#" class="dropdown--link">
+                                  <i class="ri-lock-line"></i> Accounts
+                               </a>
+                            </li>
+    
+                            <li>
+                               <a href="#" class="dropdown--link">
+                                  <i class="ri-message-3-line"></i> Messages
+                               </a>
+                            </li>
+                         </ul>
+                    </li>
+
+
+
+
+
+                    <li><a href="#" class="nav--link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+     </header>
+
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
