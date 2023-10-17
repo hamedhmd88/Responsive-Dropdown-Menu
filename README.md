@@ -1,6 +1,5 @@
 # Responsive-Dropdown-Menu
 
-
 <ul>
   <li><strong>Here we have a menu that has a dropdown that opens with a hover over a specific item under the items</strong></li>
 </ul>
